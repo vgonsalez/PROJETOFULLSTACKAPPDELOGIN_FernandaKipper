@@ -1,9 +1,7 @@
-# PROJETOFULLSTACKAPPDELOGIN_FernandaKipper
+# TutorialFullstackLoginApp
 
 tutorial do canal da fernanda kipper no youtube
 https://www.youtube.com/watch?v=6qbuuPM_de4
-
-# TutorialFullstackLoginApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
 
