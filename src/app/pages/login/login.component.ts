@@ -16,7 +16,7 @@ interface LoginForm {
   standalone: true,
   imports: [
     DefaultLoginLayoutComponent,
-    // ReactiveFormsModule,
+    ReactiveFormsModule,
     // PrimaryInputComponent
   ],
   providers: [
@@ -26,7 +26,7 @@ interface LoginForm {
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-  loginForm!: FormGroup<LoginForm>;
+  loginForm!: FormGroup<LoginForm>;  // o ! indica que a expressão vai ser declarada em algum momento
 
   constructor(
     private router: Router,
